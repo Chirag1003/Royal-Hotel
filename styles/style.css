@@ -1,0 +1,148 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    scroll-behavior: smooth;
+    transition: all 0.3s ease-out;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    padding: 7px 75px;
+    background-color: #8d0003;
+    color: whitesmoke;
+    margin-top: 22px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: #8d0003;
+    font-weight: bold;
+}
+
+.frontpage {
+    position: relative;
+    background: url(../img/hotel.jpg) no-repeat;
+    background-size: cover;
+}
+
+.frontpage::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.10);
+}
+
+
+/*Frontpage Navbar  */
+
+#logo1 {
+    display: flex;
+    position: absolute;
+    height: 100px;
+    left: 1.25rem;
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 14.5px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 12px;
+}
+
+.navbar #navbarmain li a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+.navbar #navbarmain li a:hover {
+    color: #8d0003;
+    font-size: 17px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.social {
+    display: inline-block;
+    position: absolute;
+    right: 1.25rem;
+}
+
+.social img {
+    margin-right: 8px;
+    margin-left: 4px;
+}
+
+.social li {
+    height: 30px;
+}
+
+.social #fb,
+#ig {
+    height: 22px;
+    opacity: 0.75;
+    margin-top: 3px;
+}
+
+.social #lnkd {
+    height: 24px;
+    opacity: 0.75;
+    margin-top: 3px;
+}
+
+.social #git {
+    height: 35px;
+    padding-bottom: 5px;
+    opacity: 0.75;
+}
+
+a img:hover {
+    cursor: pointer;
+    filter: invert();
+}
+
+
+/* Frontpage Content */
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 715px;
+    font-size: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 495px;
+    font-weight: bolder;
+    color: #943a3a;
+    align-items: center;
+    justify-content: center;
+}
+
+#contentsum1 {
+    color: #943a3a;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding-top: 12px;
+    font-weight: bolder;
+}
