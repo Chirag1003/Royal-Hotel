@@ -146,3 +146,113 @@ a img:hover {
     padding-top: 12px;
     font-weight: bolder;
 }
+/* Kitchen */
+
+.kitchen #intro {
+    text-align: center;
+    font-size: 50px;
+    margin: 18px;
+}
+
+.kitchen #sum1,
+#sum2 {
+    text-align: center;
+    font-size: 18px;
+    color: #8d0003;
+    margin: 18px;
+}
+
+.kitchen #sum2 {
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+
+.foodbox {
+    display: flex;
+    margin: 12px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.foodcolumn .fooddesc {
+    color: #8d0003;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 8px;
+}
+
+.foodcolumn div:hover {
+    background-color: rgba(240, 240, 240, 0.945);
+    /* border: 2px solid red; */
+    border-radius: 34px;
+}
+
+.foodbox div {
+    flex-wrap: wrap;
+}
+
+.foodbox img {
+    width: 95%;
+    padding: 30px;
+    border-radius: 53px;
+}
+
+.foodbox .foodcolumn {
+    box-sizing: border-box;
+    margin-left: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Rooms */
+
+.rooms #rintro {
+    text-align: center;
+    font-size: 50px;
+    margin: 18px;
+}
+
+.rooms #rsum1,
+#rsum2 {
+    text-align: center;
+    font-size: 18px;
+    margin: 18px;
+    color: #8d0003;
+}
+
+.rooms #rsum2 {
+    font-size: 15px;
+    padding-bottom: 12px;
+}
+
+/* Room Details   */
+
+.roomspic {
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.roomspic img {
+    width: 47%;
+    padding: 30px;
+}
+
+.rdesc {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 32px;
+    padding-right: 22px;
+    font-size: 18px;
+}
+
+#r1,
+#r3 {
+    flex-direction: row;
+}
+
+#r2,
+#r4 {
+    flex-direction: row-reverse;
+}
